@@ -1,0 +1,25 @@
+README for LibLC
+
+LibLC is an opensource collection of useful Document Service Components (DSC) contributed from 
+a variety of sources, and normalized into a standard build structure using Maven 2.
+
+Current Modules
+---------------
+
+1. Twilio SMS (artifact: sms).  A DSC to allow LC processes to send SMS messages via Twilio.com.
+
+
+Contributing
+------------
+
+If you wish to contribute, please contact Matt MacKenzie (matt .. uberity .. com).  Everyone is
+welcome, but keep in mind a couple of things:
+
+1. You MUST be willing to give your code away using either the MIT, BSD or Apache License.
+2. You cannot include in your build any software that is not open sourced, or otherwise licensed
+in an unrestrictive manner.  The idea is that LibLC is entirely unencumbered and can be used by
+anyone who wishes for free.
+3. You MUST be willing to use Maven.
+
+To prepare your project, please consider the sms module as a template of how you organize src and 
+resources. 
